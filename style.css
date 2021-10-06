@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #444;
+  color: #ddd;
+}
+
+.cards{
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  max-width: 500px;
+  gap: 1em;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.card{
+  background-size: 150px 150px;
+  width: 150px;
+  height: 150px;
+}

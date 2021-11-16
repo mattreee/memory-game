@@ -1,1 +1,1 @@
-# jogo da memoria
+# Memory game made with JavaScript
